@@ -60,7 +60,6 @@ Statyczna biblioteka libmal.
 %{__autoheader}
 %{__autoconf}
 %{__automake}
-
 %configure
 
 %{__make}
@@ -80,6 +79,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog MPL-1_0.txt
+%attr(755,root,root) %{_bindir}/malsync
 %attr(755,root,root) %{_libdir}/libmal.so.*.*.*
 
 %files devel
