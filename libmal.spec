@@ -12,7 +12,7 @@ URL:		http://jasonday.home.att.net/code/libmal/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
-BuildRequires:	pilot-link-devel
+BuildRequires:	pilot-link-devel >= 0.11
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -28,6 +28,7 @@ Summary:	Support files necessary to compile applications with libmal
 Summary(pl):	Pliki do kompilowania aplikacji u¿ywaj±cych libmal
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Requires:	pilot-link-devel >= 0.11
 
 %description devel
 Headers, and support files necessary to compile applications using
