@@ -23,7 +23,7 @@ TODO
 
 %package devel
 Summary:	Support files necessary to compile applications with libmal
-Summary(pl):	Pliki do kompilowania aplikacji u¿ywaj±cych libgsf
+Summary(pl):	Pliki do kompilowania aplikacji u¿ywaj±cych libmal
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
