@@ -1,6 +1,5 @@
-
 Summary:	A library with the functions for malsync distribution
-Summary(pl):	TODO
+Summary(pl):	Biblioteka funkcji dla dystrybucji malsync
 Name:		libmal
 Version:	0.31
 Release:	1
@@ -19,7 +18,8 @@ libmal is really just a convenience library of the functions in Tom
 Whittaker's malsync distribution, along with a few wrapper functions.
 
 %description -l pl
-TODO
+libmal to naprawdê tylko wygodna biblioteka funkcji w dystrybucji
+malsync Toma Whittakera wraz z kilkoma funkcjami obudowuj±cymi.
 
 %package devel
 Summary:	Support files necessary to compile applications with libmal
@@ -51,11 +51,11 @@ Statyczna biblioteka libmal.
 %setup -q
 
 %build
-%{__aclocal}
 %{__libtoolize}
+%{__aclocal}
 %{__autoheader}
-%{__automake}
 %{__autoconf}
+%{__automake}
 
 %configure
 
@@ -76,13 +76,13 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog MPL-1_0.txt
-%{_libdir}/libmal.la
 %attr(755,root,root) %{_libdir}/libmal.so.*.*.*
 
 %files devel
 %defattr(644,root,root,755)
+%attr(755,root,root) %{_libdir}/libmal.so
+%{_libdir}/libmal.la
 %{_includedir}/%{name}
-%{_libdir}/libmal.so
 
 %files static
 %defattr(644,root,root,755)
