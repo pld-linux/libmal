@@ -11,6 +11,7 @@ URL:		http://jasonday.home.att.net/code/libmal/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
+BuildRequires:	pilot-link-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
