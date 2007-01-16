@@ -1,18 +1,18 @@
 Summary:	A library with the functions for malsync distribution
 Summary(pl):	Biblioteka funkcji dla dystrybucji malsync
 Name:		libmal
-Version:	0.40
-Release:	2
+Version:	0.43
+Release:	1
 License:	MPL
 Group:		Libraries
 Source0:	http://jasonday.home.att.net/code/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	211d4db4f984512e5d3d10c35443b881
 Patch0:		%{name}-lib64.patch
-# Source0-md5:	b570bc495101de915f3401d0baaf6b62
 URL:		http://jasonday.home.att.net/code/libmal/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
-BuildRequires:	pilot-link-devel >= 0.11
+BuildRequires:	pilot-link-devel >= 0.12.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
