@@ -1,5 +1,5 @@
 Summary:	A library with the functions for malsync distribution
-Summary(pl):	Biblioteka funkcji dla dystrybucji malsync
+Summary(pl.UTF-8):   Biblioteka funkcji dla dystrybucji malsync
 Name:		libmal
 Version:	0.43
 Release:	1
@@ -19,13 +19,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 libmal is really just a convenience library of the functions in Tom
 Whittaker's malsync distribution, along with a few wrapper functions.
 
-%description -l pl
-libmal to naprawdÍ tylko wygodna biblioteka funkcji w dystrybucji
-malsync Toma Whittakera wraz z kilkoma funkcjami obudowuj±cymi.
+%description -l pl.UTF-8
+libmal to naprawdƒô tylko wygodna biblioteka funkcji w dystrybucji
+malsync Toma Whittakera wraz z kilkoma funkcjami obudowujƒÖcymi.
 
 %package devel
 Summary:	Support files necessary to compile applications with libmal
-Summary(pl):	Pliki do kompilowania aplikacji uøywaj±cych libmal
+Summary(pl.UTF-8):   Pliki do kompilowania aplikacji u≈ºywajƒÖcych libmal
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	pilot-link-devel >= 0.11
@@ -34,20 +34,20 @@ Requires:	pilot-link-devel >= 0.11
 Headers, and support files necessary to compile applications using
 libmal.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe i inne potrzebne do kompilowania aplikacji
-uøywaj±cych libmal.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe i inne potrzebne do kompilowania aplikacji
+u≈ºywajƒÖcych libmal.
 
 %package static
 Summary:	libmal static library
-Summary(pl):	Statyczna biblioteka libmal
+Summary(pl.UTF-8):   Statyczna biblioteka libmal
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 libmal static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libmal.
 
 %prep
