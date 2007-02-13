@@ -1,5 +1,5 @@
 Summary:	A library with the functions for malsync distribution
-Summary(pl.UTF-8):   Biblioteka funkcji dla dystrybucji malsync
+Summary(pl.UTF-8):	Biblioteka funkcji dla dystrybucji malsync
 Name:		libmal
 Version:	0.43
 Release:	1
@@ -25,7 +25,7 @@ malsync Toma Whittakera wraz z kilkoma funkcjami obudowującymi.
 
 %package devel
 Summary:	Support files necessary to compile applications with libmal
-Summary(pl.UTF-8):   Pliki do kompilowania aplikacji używających libmal
+Summary(pl.UTF-8):	Pliki do kompilowania aplikacji używających libmal
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	pilot-link-devel >= 0.11
@@ -40,7 +40,7 @@ używających libmal.
 
 %package static
 Summary:	libmal static library
-Summary(pl.UTF-8):   Statyczna biblioteka libmal
+Summary(pl.UTF-8):	Statyczna biblioteka libmal
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
