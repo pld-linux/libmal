@@ -2,7 +2,7 @@ Summary:	A library with the functions for malsync distribution
 Summary(pl.UTF-8):	Biblioteka funkcji dla dystrybucji malsync
 Name:		libmal
 Version:	0.44
-Release:	5
+Release:	6
 License:	MPL
 Group:		Libraries
 Source0:	http://jasonday.home.att.net/code/%{name}/%{name}-%{version}.tar.gz
