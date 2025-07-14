@@ -52,7 +52,7 @@ Statyczna biblioteka libmal.
 
 %prep
 %setup -q
-%patch0
+%patch -P0
 
 %build
 %{__libtoolize}
