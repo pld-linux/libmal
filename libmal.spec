@@ -2,12 +2,13 @@ Summary:	A library with the functions for malsync distribution
 Summary(pl.UTF-8):	Biblioteka funkcji dla dystrybucji malsync
 Name:		libmal
 Version:	0.44
-Release:	6
+Release:	7
 License:	MPL
 Group:		Libraries
 Source0:	http://jasonday.home.att.net/code/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	826f2334c8eb24f5e170f208581fdffb
 Patch0:		%{name}-lib64.patch
+Patch1:		%{name}-c99.patch
 URL:		http://jasonday.home.att.net/code/libmal/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -53,6 +54,7 @@ Statyczna biblioteka libmal.
 %prep
 %setup -q
 %patch -P0
+%patch -P1
 
 %build
 %{__libtoolize}

@@ -1,0 +1,12 @@
+--- configure.in.orig	2003-03-22 19:37:22.000000000 +0100
++++ configure.in	2024-01-01 00:00:00.000000000 +0100
+@@ -105,7 +105,8 @@
+ LIBS="$LIBS $PILOT_LIBS"
+
+ dnl *** check for pi-version.h
+-AC_TRY_COMPILE([#include <pi-version.h>], [
++AC_TRY_COMPILE([#include <stdlib.h>
++#include <pi-version.h>], [
+    exit(0);
+ ], ,
+  AC_MSG_ERROR([pilot-link header pi-version.h not found])
